@@ -19,7 +19,7 @@ class Guest(Thread):
         sleep(pause)
 
 class Cafe:
-    #list_thread = []
+
     def __init__(self, *tables):
         self.queue = Queue()
         self.tables = list(tables)
